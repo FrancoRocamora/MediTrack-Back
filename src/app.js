@@ -5,7 +5,6 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 var logger = require('morgan');
-
 require("./db.js"); 
 
 var routes = require('./routes/index.js');
